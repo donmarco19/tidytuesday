@@ -1,0 +1,36 @@
+---
+title: "Washington Hikes"
+author: "Don Marco Loleng (loleng2)"
+date: "11/24/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+install.packages("tidytuesdayR")
+```
+
+
+```{r cars}
+# Get the Data
+
+# Read in with tidytuesdayR package 
+# Install from CRAN via: install.packages("tidytuesdayR")
+# This loads the readme and all the datasets for the week of interest
+
+# Either ISO-8601 date or year/week works!
+
+tuesdata <- tidytuesdayR::tt_load('2020-11-24')
+tuesdata <- tidytuesdayR::tt_load(2020, week = 48)
+
+hike_data <- tuesdata$hike_data
+
+# Or read in the data manually
+
+hike_data <- readr::read_rds(url('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-11-24/hike_data.rds'))
+```
+
+
+```{r}
+show(hike_data)
+```

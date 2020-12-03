@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1606252162162.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "EC313076",
+    "lastKnownWriteTime" : 140569984630784,
+    "last_content_update" : 1606252162162,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "D7812227",
+        "caption" : "hike_data",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=hike_data&cache_key=D7812227",
+        "displayedObservations" : 1958,
+        "environment" : "",
+        "expression" : "hike_data",
+        "object" : "hike_data",
+        "preview" : 0,
+        "totalObservations" : 1958,
+        "variables" : 8
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
